@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Home">
+      <siteMapNode url="Company.aspx" title="Empresa" />
+      <siteMapNode url="HowTo.aspx" title="Dúvidas e Preços" />
+      <siteMapNode url="Promotions/PromotionList.aspx" title="Cd's Royalty Free" />
+      <siteMapNode url="SignUp.aspx" title="Cadastre-se" />
+      <siteMapNode url="Portfolio.aspx" title="Novidades" />
+      <siteMapNode url="SearchEngine/AdvancedSearch.aspx" title="Pesquisa" />
+      <siteMapNode url="Production.aspx" title="Produção" />
+    </siteMapNode>
+</siteMap>

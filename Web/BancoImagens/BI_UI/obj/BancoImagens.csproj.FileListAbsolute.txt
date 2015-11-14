@@ -1,0 +1,10 @@
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\bin\BancoImagens.dll
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\bin\BancoImagens.pdb
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\bin\FWBancoImagens.dll
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\bin\Microsoft.ApplicationBlocks.Data.pdb
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\bin\Microsoft.ApplicationBlocks.Data.xml
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\bin\FWBancoImagens.pdb
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\obj\Debug\BancoImagens.dll
+C:\inetpub\wwwroot\BancoImagens\BancoImagens\obj\Debug\BancoImagens.pdb

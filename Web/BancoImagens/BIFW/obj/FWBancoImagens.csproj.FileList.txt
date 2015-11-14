@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FWBancoImagens.dll
+bin\Debug\FWBancoImagens.dll
+bin\Debug\FWBancoImagens.pdb
+obj\Debug\FWBancoImagens.pdb
+obj\Release\ResolveAssemblyReference.cache
+bin\Release\FWBancoImagens.dll
+bin\Release\FWBancoImagens.pdb
+obj\Release\FWBancoImagens.dll
+obj\Release\FWBancoImagens.pdb

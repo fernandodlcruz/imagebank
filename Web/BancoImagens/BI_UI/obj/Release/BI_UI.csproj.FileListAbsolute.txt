@@ -1,0 +1,3 @@
+C:\Projetos\Fototeca\Fototeca\Web\BancoImagens\BI_UI\obj\Release\ResolveAssemblyReference.cache
+C:\Projetos\Fototeca\Fototeca\Web\BancoImagens\BI_UI\obj\Release\BancoImagens.dll
+C:\Projetos\Fototeca\Fototeca\Web\BancoImagens\BI_UI\obj\Release\BancoImagens.pdb

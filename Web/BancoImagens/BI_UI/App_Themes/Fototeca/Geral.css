@@ -1,0 +1,40 @@
+body
+{
+	font-size: 10pt;
+	font-family: Tahoma, Verdana, Arial;
+	margin-left: 30px;
+}
+.Titulo
+{
+	font-size: 18pt;
+	color: #4682b4;
+	font-family: Tahoma, Verdana, Arial;
+}
+.SubTitulo
+{
+	font-size: 12pt; 
+	color: #1e90ff;
+	font-family: Tahoma, Verdana, Arial;
+}
+.ResultImg
+{
+	vertical-align: middle;
+	text-align: center;
+	width: 33%;
+	height: 100%;
+}
+a
+{
+	color: blue;
+	text-decoration: underline;
+}
+.GrayBorder {background-image:url(../img/gray1.gif);}
+.Texto
+{
+	font-family: Tahoma, Verdana, Arial;
+}
+.menuItem
+{
+background-image : url(img/ampliar.jpg);
+background-repeat: repeat;
+}

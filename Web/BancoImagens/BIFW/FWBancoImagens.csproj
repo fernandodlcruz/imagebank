@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1F07D74-C694-4700-A375-C9954F53C72B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BancoImagens</RootNamespace>
+    <AssemblyName>FWBancoImagens</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Microsoft Application Blocks for .NET\Data Access v2\Code\CS\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BO\BCategorias.cs" />
+    <Compile Include="BO\BCds.cs" />
+    <Compile Include="BO\BClientes.cs" />
+    <Compile Include="BO\BDisponibilidades.cs" />
+    <Compile Include="BO\BFavoritos.cs" />
+    <Compile Include="BO\BFornecedores.cs" />
+    <Compile Include="BO\BGavetas.cs" />
+    <Compile Include="BO\BImagens.cs" />
+    <Compile Include="BO\BPalavraChave.cs" />
+    <Compile Include="BO\BParametros.cs" />
+    <Compile Include="BO\BPastas.cs" />
+    <Compile Include="BO\BSearch.cs" />
+    <Compile Include="BO\BSubCategorias.cs" />
+    <Compile Include="BO\BTiposLicenca.cs" />
+    <Compile Include="Common\ConnectionString.cs" />
+    <Compile Include="Common\Enumeradores.cs" />
+    <Compile Include="Common\Util.cs" />
+    <Compile Include="DAO\DCategorias.cs" />
+    <Compile Include="DAO\DCds.cs" />
+    <Compile Include="DAO\DClientes.cs" />
+    <Compile Include="DAO\DDisponibilidades.cs" />
+    <Compile Include="DAO\DFavoritos.cs" />
+    <Compile Include="DAO\DFornecedores.cs" />
+    <Compile Include="DAO\DGavetas.cs" />
+    <Compile Include="DAO\DImagens.cs" />
+    <Compile Include="DAO\DPalavraChave.cs" />
+    <Compile Include="DAO\DParametros.cs" />
+    <Compile Include="DAO\DPastas.cs" />
+    <Compile Include="DAO\DSubCategorias.cs" />
+    <Compile Include="DAO\DTiposLicenca.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TO\TCategorias.cs" />
+    <Compile Include="TO\TCds.cs" />
+    <Compile Include="TO\TClientes.cs" />
+    <Compile Include="TO\TDisponibilidades.cs" />
+    <Compile Include="TO\TFavoritos.cs" />
+    <Compile Include="TO\TFornecedores.cs" />
+    <Compile Include="TO\TGavetas.cs" />
+    <Compile Include="TO\TImagens.cs" />
+    <Compile Include="TO\TPalavrasChave.cs" />
+    <Compile Include="TO\TParametros.cs" />
+    <Compile Include="TO\TPastas.cs" />
+    <Compile Include="TO\TSubCategorias.cs" />
+    <Compile Include="TO\TTiposLicenca.cs" />
+    <Compile Include="TO\TUsuarios.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

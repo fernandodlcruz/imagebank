@@ -1,0 +1,5 @@
+C:\Projetos\Fototeca\Fototeca\Web\BancoImagens\BIFW\bin\Release\FWBancoImagens.dll
+C:\Projetos\Fototeca\Fototeca\Web\BancoImagens\BIFW\bin\Release\FWBancoImagens.pdb
+C:\Projetos\Fototeca\Fototeca\Web\BancoImagens\BIFW\obj\Release\ResolveAssemblyReference.cache
+C:\Projetos\Fototeca\Fototeca\Web\BancoImagens\BIFW\obj\Release\FWBancoImagens.dll
+C:\Projetos\Fototeca\Fototeca\Web\BancoImagens\BIFW\obj\Release\FWBancoImagens.pdb

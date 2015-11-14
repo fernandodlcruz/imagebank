@@ -1,0 +1,7 @@
+C:\inetpub\wwwroot\BancoImagens\BIFW\bin\Debug\FWBancoImagens.dll
+C:\inetpub\wwwroot\BancoImagens\BIFW\bin\Debug\FWBancoImagens.pdb
+C:\inetpub\wwwroot\BancoImagens\BIFW\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\inetpub\wwwroot\BancoImagens\BIFW\bin\Debug\Microsoft.ApplicationBlocks.Data.xml
+C:\inetpub\wwwroot\BancoImagens\BIFW\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\BancoImagens\BIFW\obj\Debug\FWBancoImagens.dll
+C:\inetpub\wwwroot\BancoImagens\BIFW\obj\Debug\FWBancoImagens.pdb

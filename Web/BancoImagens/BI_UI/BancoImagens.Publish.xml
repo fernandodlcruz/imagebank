@@ -1,0 +1,25 @@
+<publishData>
+  <publishTarget publishUrl="C:\inetpub\wwwroot\Publish\">
+    <file relUrl="bin/Microsoft.ApplicationBlocks.Data.xml" publishTime="28/07/2008 22:00:36" />
+    <file relUrl="repositorio/marca.gif" publishTime="20/08/2008 14:51:35" />
+    <file relUrl="Default.aspx.cs" publishTime="12/08/2008 17:28:44" />
+    <file relUrl="Properties/AssemblyInfo.cs" publishTime="23/07/2008 22:35:23" />
+    <file relUrl="bin/BancoImagens.dll" publishTime="21/08/2008 00:00:27" />
+    <file relUrl="repositorio/imagemComMarca.jpg" publishTime="20/08/2008 15:03:42" />
+    <file relUrl="repositorio/watermark_photo.jpg" publishTime="22/09/2002 11:42:48" />
+    <file relUrl="bin/FWBancoImagens.dll" publishTime="21/08/2008 00:00:26" />
+    <file relUrl="bin/FWBancoImagens.pdb" publishTime="21/08/2008 00:00:26" />
+    <file relUrl="BancoImagens.csproj.user" publishTime="20/08/2008 13:33:53" />
+    <file relUrl="repositorio/foto1.JPG" publishTime="19/05/2007 00:08:46" />
+    <file relUrl="bin/Microsoft.ApplicationBlocks.Data.dll" publishTime="28/07/2008 22:00:36" />
+    <file relUrl="repositorio/watermark.bmp" publishTime="22/09/2002 08:23:08" />
+    <file relUrl="BancoImagens.Publish.xml" publishTime="21/08/2008 00:06:39" />
+    <file relUrl="bin/BancoImagens.pdb" publishTime="21/08/2008 00:00:27" />
+    <file relUrl="repositorio/imagemComMarca2.jpg" publishTime="20/08/2008 17:22:23" />
+    <file relUrl="BancoImagens.csproj" publishTime="20/08/2008 13:33:53" />
+    <file relUrl="Web.config" publishTime="23/07/2008 22:35:23" />
+    <file relUrl="Default.aspx" publishTime="23/07/2008 22:35:23" />
+    <file relUrl="Default.aspx.designer.cs" publishTime="23/07/2008 22:35:24" />
+    <file relUrl="bin/Microsoft.ApplicationBlocks.Data.pdb" publishTime="28/07/2008 22:00:36" />
+  </publishTarget>
+</publishData>

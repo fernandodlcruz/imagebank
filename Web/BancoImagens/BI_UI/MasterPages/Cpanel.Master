@@ -1,0 +1,63 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Cpanel.master.cs" Inherits="BancoImagens.MasterPages.Cpanel" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>.:: Fototeca Internacional - Painel de Controle ::.</title>
+    <link href="../App_Themes/Fototeca/Geral.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Table ID="Table1" runat="server" BorderColor="Transparent" Width="75%">
+            <asp:TableRow runat="server">
+                <asp:TableCell runat="server" Width="20%"><img runat="server" src="../img/Logo138x80.jpg" alt="home page" />
+</asp:TableCell>
+                <asp:TableCell runat="server" BackColor="CornflowerBlue" BorderColor="#E0E0E0" BorderStyle="Dotted"
+                    BorderWidth="1px" Font-Names="Forte" Font-Size="X-Large" ForeColor="White" HorizontalAlign="Center"
+                    VerticalAlign="Middle" Width="80%">Muito mais que um banco de imagens!</asp:TableCell>
+            </asp:TableRow>
+        </asp:Table><br />
+        <asp:LoginName ID="LoginName1" runat="server" Font-Bold="True" ForeColor="Red" FormatString="Bem-vindo {0}!" />
+        &nbsp;(
+        <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutPageUrl="~/ControlPanel/Default.aspx" />
+        &nbsp;)<br />
+        <table width="75%">
+            <tr>
+                <td style="width: 13%; height: 100%; vertical-align: top;">
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" DynamicHorizontalOffset="2"
+                        Font-Names="Verdana" Font-Size="Small" ForeColor="#284E98" StaticSubMenuIndent="10px">
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                        <DynamicMenuStyle BackColor="#B5C7DE" />
+                        <StaticSelectedStyle BackColor="#507CD1" />
+                        <DynamicSelectedStyle BackColor="#507CD1" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <Items>
+                            <asp:MenuItem Text="Gavetas" Value="Gavetas" NavigateUrl="~/ControlPanel/Drawer/DrawerList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Pastas" Value="Pastas"  NavigateUrl="~/ControlPanel/Folder/FolderList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="CDs" Value="CDs" NavigateUrl="~/ControlPanel/Cds/CdsList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Imagens" Value="Imagens" NavigateUrl="~/ControlPanel/Images/ImagesReg.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Formatos" Value="Formatos" NavigateUrl="~/ControlPanel/Availables/AvailablesList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Tipos de Licen&#231;a" Value="Tipos de Licen&#231;a" NavigateUrl="~/ControlPanel/TypeLicence/TypeLicenceList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Temas" Value="Temas" NavigateUrl="~/ControlPanel/Themes/ThemesList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Sub-Temas" Value="Sub-Temas" NavigateUrl="~/ControlPanel/SubThemes/SubThemesList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Fornecedores" Value="Fornecedores" NavigateUrl="~/ControlPanel/Suppliers/SuppliersList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Parametros" Value="Parametros" NavigateUrl="~/ControlPanel/Parameters/ParametersList.aspx"></asp:MenuItem>
+                        </Items>
+                        <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                    </asp:Menu>
+        
+                </td>
+                <td style="width: 7%">&nbsp;</td>
+                <td style="width: 80%; height: 100%; vertical-align: top;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
